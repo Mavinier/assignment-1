@@ -1,0 +1,75 @@
+/* TO-DO: REMOVE BORDERS WHEN NECESSARY BEFORE SUBMITTING THE ASSIGNMENT */
+
+/* MAIN PAGE CSS */
+header {
+  /* TO-DO: REMOVE BORDERS WHEN NECESSARY BEFORE SUBMITTING THE ASSIGNMENT */
+  border: solid 1px red;
+}
+
+section {
+  /* TO-DO: REMOVE BORDERS WHEN NECESSARY BEFORE SUBMITTING THE ASSIGNMENT */
+  border: solid 1px blue;
+}
+
+footer {
+  /* TO-DO: REMOVE BORDERS WHEN NECESSARY BEFORE SUBMITTING THE ASSIGNMENT */
+  border: solid 1px violet;
+}
+
+h1, p, nav div {
+  text-align: center;
+}
+
+h1, p {
+  /* TO-DO: REMOVE BORDERS WHEN NECESSARY BEFORE SUBMITTING THE ASSIGNMENT */
+  border: solid 1px black;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav div {
+  /* TO-DO: REMOVE BORDERS WHEN NECESSARY BEFORE SUBMITTING THE ASSIGNMENT */
+  border: solid 1px black;
+}
+
+nav div:hover{
+  background-color: aqua;
+}
+
+nav div:nth-of-type(even){
+  flex:1;
+  cursor: pointer;
+}
+
+nav div:nth-of-type(odd){
+  flex:1;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+}
+
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+  display: flex;
+}
+
+.footer-basic li {
+  padding:0 10px;
+  flex: 1;
+}
+
+.flex-container { 
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
