@@ -73,3 +73,7 @@ nav div:nth-of-type(odd){
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+
+#BS_left_align {
+  text-align: left;
+}
